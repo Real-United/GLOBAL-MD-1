@@ -6,7 +6,7 @@ import dotenv from 'dotenv';
 
 dotenv.config();
 
-const ownervb = process.env.OWNERS || "923444844060;Qasim";
+const ownervb = process.env.OWNERS || "254769323504; Bencastle";
 const ownerlist = ownervb.split(';');
 
 global.owner = ownerlist.map((owner, i) => ({
@@ -15,7 +15,7 @@ global.owner = ownerlist.map((owner, i) => ({
   isAdmin: true
 }));
 
-console.log(global.owner);
+console.log(global.owner); "G-UNIT ❤️"
 
 global.botNumber = '254769323504'; // Put your number here for pairing directly
 global.mods = ['923444844060'];
@@ -60,7 +60,7 @@ global.APIKeys = {
 }
 
 // Sticker WM
-global.botname = process.env.BOTNAME
+global.botname = process.env.BOTNAME "BENCASTLE 🤍"
 global.premium = 'true'
 global.packname = 'GLOBAL'
 global.author = 'Qasim'
@@ -82,6 +82,8 @@ global.xmoji = '🔥'
 
 global.multiplier = 69
 global.maxwarn = '3'
+mode "private"
+global.readstatus = "true"
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
