@@ -11,13 +11,13 @@ const ownerlist = ownervb.split(';');
 
 global.owner = ownerlist.map((owner, i) => ({
   id: ownerlist[i],
-  name: ownerlist[i + 1],
+  name: "CANADIAN BOY",
   isAdmin: true
 }));
 
 console.log(global.owner);
 
-global.botNumber = '923051391007'; // Put your number here for pairing directly
+global.botNumber = '254769323504'; // Put your number here for pairing directly
 global.mods = ['923444844060'];
 global.prems = ['923444844060'];
 global.allowed = ['923444844060'];
@@ -60,7 +60,7 @@ global.APIKeys = {
 }
 
 // Sticker WM
-global.botname = process.env.BOTNAME
+global.botname = process. "BENCASTLE 🤍"
 global.premium = 'true'
 global.packname = 'GLOBAL'
 global.author = 'Qasim'
@@ -79,9 +79,12 @@ global.dmoji = '🤭'
 global.done = '✅'
 global.error = '❎'
 global.xmoji = '🔥'
+global.savestatus ="true"
+global.readstatus ="true"
 
 global.multiplier = 69
 global.maxwarn = '3'
+Mode. "private"
 
 let file = fileURLToPath(import.meta.url)
 watchFile(file, () => {
